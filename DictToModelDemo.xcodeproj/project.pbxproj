@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F76767F520A28D5A002EDCA3 /* NSObject+EnumDictOneLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = F76767F420A28D5A002EDCA3 /* NSObject+EnumDictOneLevel.m */; };
 		F79FC77A20A1904600EE661C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F79FC77920A1904600EE661C /* AppDelegate.m */; };
 		F79FC77D20A1904600EE661C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F79FC77C20A1904600EE661C /* ViewController.m */; };
 		F79FC78020A1904600EE661C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F79FC77E20A1904600EE661C /* Main.storyboard */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F76767F320A28D5A002EDCA3 /* NSObject+EnumDictOneLevel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+EnumDictOneLevel.h"; sourceTree = "<group>"; };
+		F76767F420A28D5A002EDCA3 /* NSObject+EnumDictOneLevel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EnumDictOneLevel.m"; sourceTree = "<group>"; };
 		F79FC77520A1904600EE661C /* DictToModelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DictToModelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F79FC77820A1904600EE661C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F79FC77920A1904600EE661C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -160,6 +163,8 @@
 		F79FC7AA20A1907000EE661C /* ConvertKit */ = {
 			isa = PBXGroup;
 			children = (
+				F76767F320A28D5A002EDCA3 /* NSObject+EnumDictOneLevel.h */,
+				F76767F420A28D5A002EDCA3 /* NSObject+EnumDictOneLevel.m */,
 				F79FC7AB20A1909700EE661C /* NSObject+EnumDict.h */,
 				F79FC7AC20A1909700EE661C /* NSObject+EnumDict.m */,
 				F79FC7AE20A191E200EE661C /* NSObject+EnumArr.h */,
@@ -305,6 +310,7 @@
 				F79FC77D20A1904600EE661C /* ViewController.m in Sources */,
 				F79FC7B320A192F300EE661C /* Status.m in Sources */,
 				F79FC7AD20A1909700EE661C /* NSObject+EnumDict.m in Sources */,
+				F76767F520A28D5A002EDCA3 /* NSObject+EnumDictOneLevel.m in Sources */,
 				F79FC78820A1904600EE661C /* main.m in Sources */,
 				F79FC7BB20A197A100EE661C /* CellModel.m in Sources */,
 				F79FC7B020A191E200EE661C /* NSObject+EnumArr.m in Sources */,

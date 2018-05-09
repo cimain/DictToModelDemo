@@ -15,4 +15,9 @@
     return @{@"cellMdlArr" : @"CellModel"};
 }
 
++ (NSDictionary *)dictWithModelClass
+{
+    return @{@"person" : @"PersonModel"};
+}
+
 @end

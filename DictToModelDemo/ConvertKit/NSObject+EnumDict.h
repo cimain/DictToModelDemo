@@ -10,6 +10,6 @@
 
 @interface NSObject (EnumDict)
 
-+ (instancetype)cm_objcWithDict:(NSDictionary *)dict;
++ (instancetype)cm_modelWithDict:(NSDictionary *)dict;
 
 @end

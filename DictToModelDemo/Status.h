@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "NSObject+EnumArr.h"
+#import "NSObject+EnumDict.h"
 
 @class PersonModel;
 
@@ -18,5 +19,7 @@
 @property (nonatomic, strong) PersonModel *person;
 
 @property (nonatomic, strong) NSArray *cellMdlArr;
+
++ (NSDictionary *)dictWithModelClass;
 
 @end

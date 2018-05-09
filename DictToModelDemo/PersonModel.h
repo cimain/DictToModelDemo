@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NSObject+EnumDict.h"
+//#import "NSObject+EnumDict.h"
+//#import "NSObject+EnumArr.h"
 
 @interface PersonModel : NSObject
 
 @property (nonatomic, copy) NSString *iconStr;
-
 @property (nonatomic, copy) NSString *showStr;
 
 @end
